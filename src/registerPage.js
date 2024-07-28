@@ -102,7 +102,7 @@ function RegisterPage() {
                     <center><button type="submit" style={{ width: 100, float: 'right', alignItems: 'center', fontSize: 20, backgroundColor: "black", color: "white", borderRadius: 10 }}>Register</button></center>
                 </form>
             </div> */}
-            <div style={{marginLeft:85,marginTop:-18,border:"2px solid black",padding:10,width:308,display:"flex",flexDirection:"column",backgroundColor:"beige"}}>
+            <div style={{marginLeft:82,marginTop:-15,border:"2px solid black",padding:10,width:308,display:"flex",flexDirection:"column",backgroundColor:"beige"}}>
             
             <h1 style={{marginLeft:65}}><u>Register Page</u></h1>
             <h5 style={{fontSize:20,marginLeft:20}}>Provide your details to Register</h5>
