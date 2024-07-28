@@ -53,12 +53,12 @@ function Login() {
 // export default Login;
 
 return (
-    <div style={{marginLeft:595,marginTop:-17,border:"2px solid black",padding:10,width:305,height:450,display:"flex",flexDirection:"column",backgroundColor:"beige"}}>
+    <div style={{marginLeft:682,marginTop:-17,border:"2px solid black",padding:10,width:305,height:450,display:"flex",flexDirection:"column",backgroundColor:"beige"}}>
         <h1 style={{marginLeft:75}}><u>Login Page</u></h1>
         <h5 style={{fontSize:20,marginLeft:30}}>Provide your details to Login</h5>
         <form onSubmit={formSubmit} style={{fontSize:25,display:"flex",flexDirection:"column"}}>
             <label><b>College ID:</b></label>
-            <input type="text" ref={collegeIdRef} style={{height:35,width:305,marginTop:15,border:"2px solid black"}} placeholder="enter mail id"/>
+            <input type="text" ref={collegeIdRef} style={{height:35,width:305,marginTop:15,border:"2px solid black"}} placeholder="enter college id"/>
             <br/>
             <label><b>Password :</b></label>
             <input type="password" ref={passwordRef} style={{height:35,width:305,marginTop:15,border:"2px solid black"}} placeholder="enter password"/>
