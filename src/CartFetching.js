@@ -17,7 +17,7 @@ function Cart({id, path, title, price, descript, category, rating, count}) {
 
     return (
         <div style={{padding:10,backgroundColor:"white",borderRadius:3,width:230,display:"flex",flexDirection:"column", border:'1px solid black', margin:20}}>
-            <img src="wishlistSymbol.png" alt="wishlist" style={{marginLeft:175,height:25,width:25}}/>
+            <img src="wishlistSymbol.png" alt="wishlist" style={{marginLeft:190,height:25,width:25}}/>
             <center>
             <img src={path} width={100} height={100} alt = "product" style={{borderRadius:20}}></img>
             <h3 >{title} </h3>
