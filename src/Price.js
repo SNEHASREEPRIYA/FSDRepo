@@ -23,7 +23,7 @@ function Price({ p , q}) {
         setTotalPrice(mrp * number);
         setMrp(p);
        
-    }, [number, mrp]);
+    }, [number, mrp,p]);
 
     const funcBtnClick = () => {
         console.log("Button Clicked");
