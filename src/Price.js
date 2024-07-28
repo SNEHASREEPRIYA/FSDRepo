@@ -16,7 +16,7 @@ function Price({ p , q}) {
         return () => {
             console.log("Unmounted");
         };
-    }, [number,mrp]);
+    }, [number,mrp,p]);
 
     useEffect(() => {
         console.log("Updated!!!");

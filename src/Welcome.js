@@ -5,7 +5,7 @@ function Welcome() {
         <div>
             <Navigation/>
             <h1>
-                <center>Welcome</center>
+                <center style={{fontSize:50,color:"darkgreen"}}>Welcome to V-commerce !</center>
             </h1>
         </div>
     )
