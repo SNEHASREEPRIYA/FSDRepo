@@ -2,7 +2,7 @@ import { useState, useContext } from "react";
 import { globalContext } from "./App";
 
 function RegisterPage() {
-    
+
     const [collegeIdValue, setCollegeId] = useState('');
     const [passwordValue, setPassword] = useState('');
     const [emailValue, setEmail] = useState('');
@@ -105,7 +105,7 @@ function RegisterPage() {
             </div> */}
             <div style={{marginLeft:85,marginTop:-18,border:"2px solid black",padding:10,width:308,display:"flex",flexDirection:"column",backgroundColor:"beige"}}>
             
-            <h1 style={{marginLeft:65}}><u>Register Page</u></h1>
+            <h1 style={{marginLeft:50}}><u>Register Page</u></h1>
             <h5 style={{fontSize:20,marginLeft:20}}>Provide your details to Register</h5>
             <form onSubmit={submitData} style={{fontSize:25,display:"flex",flexDirection:"column"}}>
                 <label><b>College Mail-ID :</b></label>
