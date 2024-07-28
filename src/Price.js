@@ -16,11 +16,12 @@ function Price({ p , q}) {
         return () => {
             console.log("Unmounted");
         };
-    }, []);
+    }, [number,mrp]);
 
     useEffect(() => {
         console.log("Updated!!!");
-        setTotalPrice(mrp * number); 
+        setTotalPrice(mrp * number);
+        setMrp(p);
        
     }, [number, mrp]);
 

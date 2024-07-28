@@ -44,12 +44,15 @@ function RegisterPage() {
         event.preventDefault();
         
         const obj = {
-            collegeIdValue, branchValue, passwordValue, emailValue, yearValue, genderValue
+            collegeIdValue, branchValue, passwordValue, emailValue, yearValue, genderValue,mobileValue
         }
         setUser(obj);
         setGlobalUserObject(obj);
         console.log(obj);
         console.log("Registration Successfull");
+        console.log(user);
+        console.log(globalUserObject);
+        alert("Registration Successful!! Login to enter!");
 
     };
 
