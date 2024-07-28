@@ -19,13 +19,6 @@ function Reviews() {
         nameRef.current.value = '';
     }
 
-    // const addname = () => {
-    //     console.log("Adding Reviewer name...");
-    //     setlist([...list,names]);
-    //     setnames('');
-    //     nameRef.current.value = '';
-    // }
-
     const inputValueChange = (event) => {
         console.log("Input Value changed");
         event.preventDefault();

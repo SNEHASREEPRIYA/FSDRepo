@@ -4,7 +4,9 @@ import Welcome from "./Welcome";
 import { globalContext } from "./App";
 
 function Home() {
+
     const {globalIsLogin} = useContext(globalContext);
+
     return (
 
             <div>
